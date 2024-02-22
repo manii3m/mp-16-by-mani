@@ -1,0 +1,567 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins' , sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1%;
+    text-align: right;
+
+}
+nav ul{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    padding-right: 25px;
+}
+li a{
+    color: #000; 
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 img{
+    max-width: 95%;
+    padding: 10px 0px;
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0px;
+}
+.btn{
+    display: inline-block;
+    background: #ff0000;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0 px;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #680070;
+}
+.header{
+    background: radial-gradient(#fff,#f400e4);
+}
+.header .row{
+    margin-top: 70px;
+}
+
+.categories{
+    margin: 70px;
+}
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.col-3 img{
+    width: 100%;
+    border-radius: 10%;
+}
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+.col-4 img{
+    width: 100%;
+    border-radius: 10%;
+}
+.rating{
+    color: orange;
+  }
+.title{ text-align: center;
+    margin: auto;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+.title::after{
+    content: '';
+    background: #ff00e6e5;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+.title{
+    text-align: center;
+    margin: auto;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+.title::after{
+    content: '';
+    background: #ff00e6e5;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+h4{
+    color: #555;
+    font-weight: normal;
+}
+.col-4 p{
+    font-size: 14px;
+    color: #000;
+}
+.col-4:hover{
+    transform:  scale(1.15);
+}
+/*----------- offer -----------*/
+.offer{
+    background: radial-gradient(#fff,#ff6600);
+    margin: auto;
+    padding: 30px 0;
+}
+h4{
+    color: #000000;
+}
+.col-2 .offer-img{
+    padding: 50px;
+}
+.col-2 .offer-img:hover{
+    transform: scale(1.2);
+    transition: transform 0.5s;
+}
+small{
+    color: #000000;
+}
+/*-------- testimonial --------*/
+.testimonial{
+    padding-top: 100px;
+}
+.testimonial .col-3{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.testimonial .col-3 img{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+
+}
+.testimonial .col-3:hover{
+    transform: translateY(-10px);
+}
+.fa.fa-quote-left{
+    font-size: 34px;
+    color: #680070;
+}
+.col-3 p{
+    font-size: 12px;
+    margin: 12px 0;
+    color: #777;
+}
+.testimonial .col-3 h3{
+    font-weight: 600;
+    color: #555;
+    font-size: 16px;
+}
+/*---------- brands ----------*/
+.brands{
+    margin: 100px auto;
+}
+.col-5{
+    width: 160px;
+}
+.col-5 img{
+    width: 80%;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+.col-5 img:hover{
+    filter: grayscale(0);
+}
+
+/*-------- footer --------*/
+
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+.footer p{
+    color: #8a8a8a;
+    }
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.footer-col-1{
+    flex-basis: 30%;
+}
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+.footer-col-2 img{
+    width: 180px;
+    margin-bottom: 30px;
+}
+.footer-col-3, .footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    color: #b5b5b5;
+}
+.footer-col-3 li a{
+    color: white;
+}
+.footer-col-4 li a{
+    color: white;
+}
+.app-logo{
+    margin-top: 20px;
+}
+.app-logo img{
+    width: 140px;
+}
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0px;
+}
+.Copyright{
+    text-align: center;
+}
+
+.menu-icon{
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+/*------- all products ------*/
+.row-2{
+    justify-content:space-between ;
+    margin: 100px auto 50px;
+}
+select{
+    border: 1px solid #ff00b7;
+    border-radius: 30px;
+}
+select:focus{
+    outline: none;
+}
+.page-btn{
+    margin: 0 auto 80px;    
+}
+.page-btn a{
+    color: #000;
+}
+.page-btn span{
+    display: inline-block;
+    border: 1px solid   #ff00b7;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    border-radius: 30%;
+}
+.page-btn span:hover{
+    background: #ff00b7;
+    color: rgb(255, 255, 255);
+}
+/*------- Return Policy --------*/
+.small-container .row-2 h1{
+    margin-bottom: 50px;
+    text-align: center
+}
+.small-container .row-2 h2{
+    text-align: center;
+}
+/*------ Join Affiliate ------*/
+.small-container .row-2 h3{
+    text-align: center;
+    color: #000;
+}
+.small-container .row-2 .btn{
+    background: #ff00d4;
+    color: #000;
+    transition: background 0.5s;
+}
+.small-container .row-2 .btn:hover{
+    background: #680070;
+}
+/*-------- Contact Us -------*/
+.small-container .row-3 h1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: lucida Handwriting;
+}
+.small-container .row-3 h3{
+    font-size: 30px;
+    text-align: left;
+    font-weight: lucida Handwriting;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.small-container .row-3 a p{
+    color: black;
+}
+.small-container .row-3 a p:hover{
+    transform: translateY(-10%);
+    transition: transform 0.5s;
+}
+.small-container .row-3 p{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*------ about ------*/
+.about .container{
+    margin-bottom: 50px;
+}
+.about h1{
+    text-align: center;
+}
+.about .container .small-container-1 {
+    background-color: white;
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.about .col-2 .small-container{
+    background-color: #d685db;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.about .col-2 .small-container h3{
+    text-align: center;
+    margin-top: 10px;
+}
+.about .col-2 .small-container h4{
+    text-align: center;
+    font-size: 15px;
+    text-shadow: 30%;
+    background-color: white;
+    border-radius: 25px;
+}
+.about .col-2 .small-container a img{
+    width: 40px;
+}
+.about .col-2 .small-container a img:hover{
+    transform: scale(1.2);
+    transition: transform 0.5s;
+}
+.about .col-2 .small-container p{
+    text-align: center;
+    text-decoration: solid;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.about .col-2 img{
+    align-items: auto;
+    margin-left: 30%;
+    width: 40%;
+    border-radius: 50%;
+    box-shadow: 10%;
+}
+
+/*-------- Account --------*/
+.account-page{
+    padding: 50px 0;
+    background: radial-gradient(#fff,#f400e4);
+}
+.form-container{
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    position: right;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    box-shadow: 0 0 10px;
+    border-radius: 30px;
+}
+.form-container span{
+    font-weight: bold;
+    padding: 0 10px;
+    color: #ffffff;
+    width: 100px;
+    display: inline-block;
+}
+.form-btn{
+    display: inline-block;
+    background-color: #9a047e;
+    border-radius: 30px;
+    height: 25px;
+    margin-bottom: 200px;
+}
+.form-container form{
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top: 230px;
+}
+.form-container a{
+    text-align: center;
+    font-size: 10px;
+    text-decoration: underline;
+    color: #000000;
+}
+.form-container button{
+    size: 200px;
+    margin-top: 30px;
+    font-weight: 500;
+    color: #d70088;
+    border-radius: 20px;
+}
+.form-container button:hover{
+    cursor: pointer;
+}
+.account-page .row .col-3 img{
+    width: 100%;
+}
+.account-page .row .col-3 h2{
+    margin-top: 40px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.account-page .row .col-3 .my-button{
+    background-color: rgb(213, 0, 210);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transform: background;
+}
+.account-page .row .col-3 .my-button:hover{
+    cursor: pointer;
+    background: #000;
+}
+.form-container form input{
+    width: 100%;
+    height: 30px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+/*-------- media query for menu --------*/
+@media screen and (max-width: 800px) {
+      nav ul{
+    position: absolute;
+    top: 70px;   
+    left: 0;
+    background: #333;
+    width: 100%;
+    overflow: hidden;
+    transition: max-height 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    nav ul li a{
+        color: rgb(0, 0, 0);
+    }
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+}     
+/*media query for less than 600 screen size*/
+@media screen and (max-width: 600px){
+    .row{
+        text-align: center;
+    }
+    .col-2, .col-3, .col-4{
+        flex-basis: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
